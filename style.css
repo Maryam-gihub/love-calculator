@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo {
+    background-image: url(image/love\ photo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    color: white;
+    height: 40vh;
+    width: 900px;
+}
+
+/* @media (min-width: 768px) {
+
+    Styles for screens wider than 768px
+    .glass {
+        font-size: 18px;
+    }
+
+    .glass{
+        width: 80%;
+    }
+} */
